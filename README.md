@@ -5,7 +5,7 @@ DataPulse is a responsive browser-based data engineering workspace built with Re
 ## Included workspaces
 
 - **ETL Pipeline:** select ingest, null handling, normalization, deduplication, and one-hot encoding steps; run transformations on the active dataset.
-- **Dataset Cleaner:** inspect missing values and duplicate records, impute numeric gaps with mean or median, remove incomplete rows, and export cleaned CSV.
+- **Dataset Cleaner:** inspect missing values and duplicate records, impute numeric gaps with mean or median, remove incomplete rows, filter numeric outliers with IQR fences, and export cleaned CSV.
 - **Vector Inspector:** explore a sample embedding projection and a clearly labelled similarity-search demonstration.
 - **Statistical Studio:** view numeric distributions, mean, median, standard deviation, skewness, and a Pearson correlation matrix.
 - **Python Exporter:** generate a starter Pandas or Polars script from the selected transformations and download it.
